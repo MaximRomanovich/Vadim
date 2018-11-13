@@ -94,17 +94,11 @@
 					<h3 class="widget-title">Last Posts</h3>
 					<ul class="widget-category-list">
 						<li>
-							<div class="post-image-small">
-								<a href=""><img src="/home/maxrom/Попова/images/post1.jpg"></a>
-							</div>
 							<h4 class="widget-post-title">Web Page Layout</h4>
 						</li>
 						<li>
-								<div class="post-image-small">
-									<a href=""><img src="/home/maxrom/Попова/images/post2.jpg"></a>
-								</div>
-								<h4 class="widget-post-title">CSS</h4>
-							</li>
+							<h4 class="widget-post-title">CSS</h4>
+						</li>
 					</ul>
 				</div>
 				<div class="widget">
@@ -132,7 +126,11 @@
 			</div>
 		</div>
 	</footer>
-	
+	<script>
+		$('.nav-toggle').on('click', function(){
+		$('#menu').toggleClass('active');
+		});
+		</script>
 	
 </body>
 </html>
